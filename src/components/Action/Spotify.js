@@ -1,7 +1,7 @@
 // src/Action/Spotify.js
 const spotifyAuthEndpoint = "https://accounts.spotify.com/authorize";
 const clientId = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
-const redirectUri = "http://localhost:3000"; 
+const redirectUri = process.env.REACT_APP_REDIRECT; 
 const scopes = [
   "user-read-private",
   "user-read-email",
