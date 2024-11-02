@@ -1,0 +1,110 @@
+/* App.css */
+
+/* Set the entire app background to black */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color for readability */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* General container styling */
+.container {
+    padding: 20px;
+}
+h1,h2{
+    text-align: center;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* Spotify green for headings */
+}
+
+/* Text styling */
+p, span, a {
+    color: #e0e0e0; /* Light gray for better readability */
+}
+
+/* Buttons */
+button {
+    background-color: #1DB954; /* Spotify green */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1aa34a; /* Slightly darker green on hover */
+}
+
+/* Inputs and ranges (e.g., progress bar) */
+input[type="range"] {
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    background-color: #555; /* Dark gray background for slider */
+    outline: none;
+    border-radius: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #1DB954; /* Green slider thumb */
+    cursor: pointer;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1DB954;
+    border-radius: 10px;
+}
+
+/* Links */
+a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image styling */
+img {
+    border-radius: 8px;
+    max-width: 100%;
+}
+
+/* Card styling */
+.card {
+    background-color: #1a1a1a; /* Dark card background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Flex container */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
